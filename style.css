@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.header ,.hero-section{
+
+    background-color: #1f2937;
+    display:flex;
+    color: white;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.header{
+    justify-content: space-between
+}
+
+ul{
+    display: flex;
+    gap: 18px;
+    list-style-type: none;
+}
+
+.logo{
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 700;
+  padding-top: 12px;  
+}
+
+.hero-text ,.menu{
+    font-size: 18px;
+    color: #e5e7eb;
+    padding-right: 18px;
+}
+
+.hero-section{
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
+    flex: 1;
+}
+
+.hero-title{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    
+}
+
+.some_random_info{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 30px;
+}
+
+.subtext{
+    font-size: 12px;
+    font-weight: 100;
+    text-align: center;
+
+}
+.gallery{
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+
+}
+
+.rounded_square{
+    text-align: center;
+    border: 2px solid #3882f6;
+    border-radius: 8%;
+    height: 66px;
+    width: 100px;
+    margin-bottom: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 6%;
+    padding-bottom: 60px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+    font-size: 36px;
+    text-align: justify;
+}
+.author{
+    font-size: 12pt;
+    text-align: right;
+    font-weight: 700;
+}
+
+.call_to_action{
+    background-color: #3882f6;
+    border-radius:9px;
+    padding: 40px;
+    margin: 40px;
+    color: white;
+    display: flex;
+}
+
+.call_to_action_title{
+    font-size: 21px;
+    font-weight: 800;
+    flex: 3;
+}
+
+.call_to_action_text{
+    font-size: 12px;
+    font-weight: 200;
+}
+
+button{
+    background-color: #3882f6; /* Green */
+    border: 1px solid white;
+    border-radius: 7px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
